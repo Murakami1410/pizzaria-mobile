@@ -1,27 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src * data: content:;"> 
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src * data: content:;">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="css/index.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Admin</title>
-    
 </head>
 <body>
     <div class="app-lista" id="applista">
         <div class="superior" id="listaPizzas"></div>
         <div class="inferior">
-            <button class="botao-novo" id="btnNovo" >Nova Pizza Teste</button>
+            <button class="botao-novo" id="btnNovo">Nova Pizza Teste</button>
         </div>
     </div>
-
 
     <div class="app-cadastro" id="appcadastro" style="display: none;">
         <div class="imagem" id="imagem"></div>
@@ -41,12 +36,10 @@
             <button class="botao" id="btnExcluir">Excluir</button>
             <button class="botao" id="btnCancelar">Cancelar</button>
         </div>
-        
-        </div>
     </div>
+
     <script src="js/index.js"></script>
     <script src="cordova.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.1.1/compressor.min.js"></script>
 </body>
 </html>
-
